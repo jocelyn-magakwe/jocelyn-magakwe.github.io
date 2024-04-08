@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*, p, h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+.btn-pink {
+  background-color: magenta;
+  color: white;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: white;
+  border-radius: 1rem;
+  text-align: center;
+  justify-content: center;
+  height: fit-content;
+}
+
+.btn-xxl {
+  font-size: 1.1rem;
+}
+
+.btn-transparent {
+  background-color: rgba(255,255,255,0.15) !important;
+  color: white;
+  border-style: solid !important;
+  border-width: 0.1rem !important;
+  border-color: magenta;
+  border-radius: 1rem;
+  text-align: center;
+  justify-content: center;
+  height: fit-content;
+}
+
+.stack-img{
+  justify-content:right;
+  width: 66%;
+  height: fit-content;
+  align-content:right;
+}
+
+.divider{
+  background-color: magenta;
+  width: 0.5rem;
+  height: 30rem;
+  border-radius: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}

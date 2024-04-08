@@ -1,0 +1,41 @@
+/*@media (max-width: 301.98px) {
+    #basic-navbar-nav {
+        width: 100%;
+        justify-content: center;
+    }
+  }*/
+
+  .btn-pink {
+    background-color: magenta !important;
+    color: white !important;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-top: white;
+    border-radius: 1rem;
+    text-align: center;
+    justify-content: center;
+    height: fit-content;
+  }
+
+  .btn-xxl {
+    font-size: 1.1rem;
+  }
+  
+  .btn-transparent {
+    background-color: transparent;
+    color: white;
+    border-style: solid;
+    border-width: 0.5rem;
+    border-top: magenta;
+    border-radius: 1rem;
+  }
+
+  .selected-tab {
+    color: magenta !important;
+    font-weight: bold;
+  }
+
+  .unselected-tab {
+    color: white !important;
+    font-weight: normal;
+  }
